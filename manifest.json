@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "fbnmtz.audio",
+  "name": "My Audio",
+  "version": "1.0.0",
+  "author": "fbnmtz",
+  "description": "Volume slider, output picker, per-app mixer",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "My Audio",
+    "description": "Volume slider, output picker, per-app mixer",
+    "category": "Audio",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.audio"
+  },
+  "license": "MIT"
+}
