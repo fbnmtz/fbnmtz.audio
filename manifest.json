@@ -4,7 +4,7 @@
   "name": "My Audio",
   "version": "1.0.0",
   "author": "fbnmtz",
-  "description": "Volume slider, output picker, per-app mixer",
+  "description": "Volume slider (up to 200%), output picker, per-app mixer",
   "kinds": [
     "bar-widget"
   ],
@@ -13,7 +13,7 @@
   },
   "barWidget": {
     "displayName": "My Audio",
-    "description": "Volume slider, output picker, per-app mixer",
+    "description": "Volume slider (up to 200%), output picker, per-app mixer",
     "category": "Audio",
     "allowMultiple": false
   },
